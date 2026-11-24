@@ -1,0 +1,168 @@
+version: 2
+scanner_version: 2.13.7
+rules: []
+fingerprints:
+- hash: sha256:c179f9365b264b2b74dcf947a7f233668b7359b73ebfa1532c532cb443931bb0
+  rule_id: AS2
+  file: skills/claude-api/shared/prompt-audit.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:9ea5dc2283d7fb919abf6c4e31226ce83103722c67b8215334c67dbcc032265d
+  rule_id: AS1
+  file: skills/skill-creator/scripts/run_eval.py
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:fe9f6991d78b7540215444b20756b5b80c6cc953456bee085642eb95b547c337
+  rule_id: AR2
+  file: skills/claude-api/python/claude-api/tool-use.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:e350105944c65eb30860bcf1bbfde998cf632f68531daa856a538fda5a0f85db
+  rule_id: AR2
+  file: skills/claude-api/typescript/claude-api/tool-use.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:3feb98934ef00674e3cafcab7d18dd0a703ffd27cc948eeead61dbb5e38d7fe7
+  rule_id: AR1
+  file: skills/discernment-nudge/SKILL.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:a3017b26aee625acb4585da0cb1021b5df488e19ff63db382a41fd1afd81169d
+  rule_id: AR2
+  file: skills/frontend-design/SKILL.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:6c5fb3008eab936a5e2f18c03460e2f7fa08cc68329a5bb35ae24f59dfc5d0ed
+  rule_id: E4
+  file: skills/claude-api/python/claude-api/README.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:cd2a72690de0acbb6e141ff9227cf86f3e60a1512f236023071e8f6d00e72a97
+  rule_id: E4
+  file: skills/claude-api/shared/live-sources.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:830a83bf38d135f101b230027d221ad279e117ad2a30f2949ef46b6bd07db371
+  rule_id: E4
+  file: skills/claude-api/shared/live-sources.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:85ff3fa5ccf21ef799a684c0a83e466f6b5fb76e772723fcde9a1fb1f88dc0fd
+  rule_id: E4
+  file: skills/claude-api/shared/model-migration.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:55f4b11be77ee864d0f882374996ceccc3a18767a3728b0582dd37a3efb8c78e
+  rule_id: E4
+  file: skills/claude-api/typescript/claude-api/README.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:b46e0e22e0cd193a82ed46af9bbbc9cb1bbbe5c12f0abb00f0acdd923e71ff9b
+  rule_id: E2
+  file: skills/docx/scripts/office/soffice.py
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:c637010286f847a8699748a9de4a2a7da71d7408721d6fc24ebad3aeb2782e4d
+  rule_id: E2
+  file: skills/pptx/scripts/office/soffice.py
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:6c678cebb75641bd2e22360e709ebf768cc7c823e56e9697f82217f3e33abb34
+  rule_id: E2
+  file: skills/skill-creator/scripts/improve_description.py
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:b13fbe2a44b8557abf29a92a61cb09dc3478df1fbc9d1655334aca77fe23a425
+  rule_id: E2
+  file: skills/skill-creator/scripts/run_eval.py
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:9fcc82515640afb0df35dcf832d4f408e68b0a907d8ac48d24fda20ebe157b61
+  rule_id: E2
+  file: skills/xlsx/scripts/office/soffice.py
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:e3655b1a9579f655e4a1a67882fec60d60b14806baa3b8067c518d70a087e899
+  rule_id: EA5
+  file: skills/claude-api/shared/anthropic-cli.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:3f725119eb5a1fa15dfec494df8a7985cb5b5edbe3b68dc0357c6c62b048bf3e
+  rule_id: EA5
+  file: skills/claude-api/shared/anthropic-cli.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:04ce1f1074770dd328c5b361409fe76f86718dfdbe2cd5d596a8469c43b4ac51
+  rule_id: EA5
+  file: skills/claude-api/shared/token-counting.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:bd81780f30b3517d49bc30b7f099b03b0f357114dc6aab39b4451eb24c48b9fd
+  rule_id: MP3
+  file: skills/claude-api/shared/preserved-thinking-migration/causes.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:6ca7960d6709cc334584387d4fc9424f13b0006fa88c1e3f03959409c9bc56cd
+  rule_id: PE3
+  file: skills/claude-api/shared/anthropic-cli.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:e66987a00f6a89b5b7a32de352f34c1989d3d6102989e6928d6bf09dcaf4ddf5
+  rule_id: PE3
+  file: skills/claude-api/shared/anthropic-cli.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:9027f7acb675a6cd4fdfcbc14671e46e325989715260e48b7347cce00b23738a
+  rule_id: PE3
+  file: skills/claude-api/shared/evals/report/build-report-lite.mjs
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:68a7ee90498677f981a0fbe489cc91e3abee69c9247662a178e3c5fc4c97285a
+  rule_id: PE3
+  file: skills/claude-api/shared/evals/report/runner-scaffold.mjs
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:33958add7aa912544119772cae3073699cf4220508b1d178794a908798a72f4f
+  rule_id: PE3
+  file: skills/claude-api/shared/managed-agents-environments.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:5d89f895f9707d1b9bc2f60102295761ab011b5295bb91d0428c34853fca3d36
+  rule_id: PE3
+  file: skills/claude-api/shared/managed-agents-tools.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:84b37ef22fb86e6363c05b2d1f57a0b3ddcb1151734684730eaa488e9bb4fe6b
+  rule_id: PE3
+  file: skills/claude-api/shared/managed-agents-tools.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:d02262fa0301d7a82b37f23be244dd3c3820458f56abe1251842d16df3fdce01
+  rule_id: PE3
+  file: skills/claude-api/shared/managed-agents-tools.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:2e0f8c19887ba19efc0a93f0a206cee74e01b47c531c8af5e132b49e96460073
+  rule_id: PE3
+  file: skills/mcp-builder/reference/mcp_best_practices.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:d8cc7c3751273bfa1c1628bd98b74f6277c50d4b7406088d0b152ff9a208b1a0
+  rule_id: SC2
+  file: skills/claude-api/shared/managed-agents-onboarding-from-url.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:20ab87b6023bb2d15390e2688c7a2b728277edc24f961e5c773b82f7f3c4d1ac
+  rule_id: TM2
+  file: skills/claude-api/shared/anthropic-cli.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:4027667e8be7030172d073f77e767a417f3dc63fa59050e279c7c287f3ac9daf
+  rule_id: TM2
+  file: skills/claude-api/shared/managed-agents-self-hosted-sandboxes.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:673f910b9b57ddab498fabb11d7954a573f06c968101c3171d15877609dd5e0a
+  rule_id: TM1
+  file: skills/claude-api/shared/managed-agents-tools.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:e05aedd7f3a37b87a200b24e771a9b2e78141feab00454e54ad5ce41d2ed7512
+  rule_id: TM1
+  file: skills/claude-api/shared/managed-agents-tools.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:42ac1bac3d08f1804be68438a43869b2208929dbd78bd106a380687e6656c0d2
+  rule_id: TM1
+  file: skills/claude-api/shared/managed-agents-tools.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:b288c834333101e2d4d042df44da5a635159b73ca52f8431cf963cd9dbfc6e04
+  rule_id: TM1
+  file: skills/docx/SKILL.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:01781230ea4543c9a0e12852a4175e29ba7f76880c5c8a737a8e34086047d98b
+  rule_id: TM2
+  file: skills/docx/SKILL.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:35987237614d9996eea2668ec367fdcfd7a4778e70d5370ed23e0c2414f40250
+  rule_id: TM1
+  file: skills/pptx/SKILL.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:bd634738b15a8753441aae6c5e599c9c31772dde89636a3205fa64592018f38c
+  rule_id: TM2
+  file: skills/pptx/SKILL.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:aac5cf417f8be3af773b6571bd730a939dd199f74d73fbb8cb8cf51edffa8e3f
+  rule_id: TM1
+  file: skills/webapp-testing/scripts/with_server.py
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
+- hash: sha256:175a4fc71bb1ee06815b181f981f7b32bfb0fceb45b5c48e735cd994ad553322
+  rule_id: YR4
+  file: skills/claude-api/shared/model-migration.md
+  reason: 'Reviewed: false positive (docs/tooling pattern match)'
